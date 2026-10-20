@@ -1,0 +1,13 @@
+[package]
+name = "sheetview"
+version = "0.1.0"
+edition = "2024"
+description = "Fast, furniture-free, touch-first PDF viewer for sheet music"
+license = "MIT"
+repository = "https://github.com/nickyspag/sheetview"
+readme = "README.md"
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+mupdf = "0.8"
